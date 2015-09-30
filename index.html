@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Project Red Letter</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,8 @@
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,21 +35,19 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars" style="color:red"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top">Start Bootstrap</a>
+				<img src="img/Calendar.png" style="width: 45px; height: 35px"/>
+                <!--<a href="#top" style="font-family: Permanent Marker; Garamond; color: white; text-align: center">PRL</a>-->
             </li>
             <li>
                 <a href="#top">Home</a>
             </li>
             <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
             </li>
             <li>
                 <a href="#portfolio">Portfolio</a>
@@ -61,10 +61,10 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
+            <h1>Project <span style="color:red">Red</span> Letter</h1>
+            <h3>My Personal Site</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            
         </div>
     </header>
 
@@ -73,8 +73,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2>Salutations!</h2>
+                    <p class="lead"> My name is Andrew and up until a couple of years ago I was an aspiring attorney.  However, despite having the passion of becoming a lawyer since I was in elementary school, as I got older, wiser, became a family man, and watched the economy all but sink into a recession, it no longer made sense for me to take on more student debt just become another young attorney in an over-saturated market; fortunately for me, I’ve also had an interest in IT.  I considered going back to school to obtain my Masters in an IT related field, however, though that option would be more worthwhile than going to law school, I still didn’t feel comfortable taking on that amount of debt either.</br></br>
+					Though I’m opting to forego obtaining an advanced degree at this point in time, it doesn’t mean that I’m not going to expand my knowledge and skills. Instead of going the “traditional” education route, I decided that I would try the self-paced route/self-learn method and utilize many of the resources that the internet has to offer.  All of the courses and projects that I’ve completed or am in the process of completing can be found on my skills page. In addition to these courses and projects, I am also in the process of studying to obtain multiple certifications, one of which is the Certified Associate in Project Management (CAPM) through the Project Management Institute (PMI).</br></br>
+					The main reason for this site is to display my skills for employers and even potential clients.  While my resume has my acquired skills listed, I believe that displaying these skills is an enhancement to my resume.  Also, since I do not have neither an IT related degree nor years of professional experience, I don’t have the opportunity to acquire employment so that I can gain the experience; the good ole Catch 22.  I also created this site to encourage others that are in the same position as I am.  I want to show them that there are ways to gain experience outside of the work place and to display their skills.  What I hope to gain from creating this site is, another Red Letter day, that is the day when I can actually say that I’m an IT project manager. This site will change as I become more proficient in various coding languages. Again, I am trying to display my skills and if I just left the site as is, it’d be nothing more than a cover letter and resume in html format. </br></br>
+					I want to thank you for stopping by to check out my site. If you feel the urge, shoot over to the ‘Contact’ page and leave me a comment or send me an email, thanks.</br>
+					</br>
+					-Drew B.
+					</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -84,65 +90,54 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="skills" class="skills bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>Languages</h2>
                     <hr class="small">
                     <div class="row">
+					<div class="skillIcon">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                             <span class="fa-stack fa-4x">
+                                <img src= "img/128px/html5-128px.png"/>
+                            </span>
+							<img src="img/bootstrap.png" style="width: 152px; height:173px; padding-top: 20px; margin-right: -10px" alt="Bootstrap"/>
+                             <img src="img/128px/wordpress-128px.png" style="margin-left: 8px"/>
+							 </div>
+                        </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <img src= "img/128px/css3-128px.png"/>
+                            <img src="img/github-icon.png" style="padding-top: 22px; margin-right: -15px" alt="Github"/>
+							<img src="img/agile.png" style="width:115px; height:115px; margin-top:15px; margin-right:-15px;border-radius: 10px 10px 10px 10px"/>
+							</span>
+							
+						
+                         
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <img src= "img/128px/javascript-128px.png"/>
+                            <img src="img/sql128.png" style="padding-top: 20px; margin-right: -18px" />
+							</span>
+							
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <img src= "img/jquery_icon.png" style="width:120px; height:123px; margin-bottom:-10px"></img>
+                            <img src="img/128px/php-128px.png" style=" margin-left: -8px;padding-top: 33px"/>
+							</span>
+                            
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
+					</div>
                     </div>
                     <!-- /.row (nested) -->
                 </div>
@@ -154,19 +149,34 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
+	<section id="learning-path" class="learning-path">
+	<div class="container">
+        <div class="row text-center">
+           <div class="col-lg-10 col-lg-offset-1">
+        <div class="text-vertical-right">
+            <h1 style="text-align:right; margin-right: 80px;">Learning Path</h1>
+			<hr class="small" style="margin-right:135px">
+			<h3>Sites I've stopped by to pick up skills</h3>
+        </div class>
+		<div class="site-links">
+			<ul>
+				<a href="http://www.freecodecamp.com">Free Code Camp</a></br>
+				<a href="http://www.codecademy.com">Code Cademy</a></br>
+				<a href="http://www.codeschool.com">Code School</a>
+			</ul>
+		</div>
+			</div>
+		</div>
+	</div>	
+    </section>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
+                    <h2>My Work</h2>
+                    <!--<hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
@@ -207,56 +217,34 @@
         <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Andrew L. Bates</strong>
                     </h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <p><br>Pittsburgh, PA</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+                       <!-- <li><i class="fa fa-phone fa-fw"></i> </li>-->
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:contact@projectredletter.net">contact@projectredletter.net</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <li><a href="https://www.github.com/Deceptivesmiles"><i class="fa fa-lg fa-github"></i></a
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://www.twitter.com/ALBates_"><i class="fa fa-lg fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                           <a href="https://www.linkedin.com/in/batesal"><i class="fa fa-lg fa-linkedin"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Projectredletter.net 2015</p>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: Garamond,Times,serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -910,7 +910,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #red;
   text-decoration: none;
 }
 a:hover,
@@ -3135,7 +3135,8 @@ tbody.collapse.in {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 20px;
+  color:red;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -6199,5 +6200,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.background{
+	filter:grayscale(100%);
 }
 /*# sourceMappingURL=bootstrap.css.map */
